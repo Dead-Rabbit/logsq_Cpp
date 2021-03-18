@@ -2,4 +2,4 @@
 
 ** https://www.jianshu.com/p/34a2a79ea947
 ** const 与 constexpr 区别
-*** 对于修饰Object来说，const并未区分出编译期常量和运行期常量，constexpr 限定在了编译期常量
+*** 对于修饰Object来说，const并未区分出编译期常量和运行期常量 constexpr 限定在了编译期常量
