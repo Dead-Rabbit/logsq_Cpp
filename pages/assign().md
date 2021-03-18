@@ -8,5 +8,5 @@ vector<const char*> oldstyle = { "I","love","you" };
 //names = oldstyle;错误！不同的类型不能执行"="操作
 names.assign(oldstyle.cbegin(), oldstyle.cend());
 list<string>::iterator it;
-        for (auto it = names.begin(); names.begin() != names.end(); it++)
+for (auto it = names.begin(); names.begin() != names.end(); it++)
         cout << *it << " ";
