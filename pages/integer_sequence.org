@@ -5,4 +5,4 @@
 ** value\_type 表示值的类型
 ** value表示值
 ** type 表示自己, 因此可以用::type::value来获取值
-true_type和false_type两个特化类用来表示bool值类型的traits，很多traits类都需要继承它们
+true\_type和false\_type两个特化类用来表示bool值类型的traits，很多traits类都需要继承它们
