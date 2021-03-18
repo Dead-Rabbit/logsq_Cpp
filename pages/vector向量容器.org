@@ -1,4 +1,4 @@
 #+TITLE: vector向量容器
 
-**
+** vector遍历迭代器为 [[随机访问迭代器]]
 ** [[push_back()]]
