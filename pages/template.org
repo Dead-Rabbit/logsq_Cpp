@@ -1,0 +1,4 @@
+#+TITLE: template
+
+** 特化
+***
