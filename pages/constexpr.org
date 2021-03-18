@@ -1,0 +1,4 @@
+#+TITLE: constexpr
+
+** https://www.jianshu.com/p/34a2a79ea947
+**
