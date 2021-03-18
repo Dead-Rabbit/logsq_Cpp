@@ -1,6 +1,6 @@
 #+TITLE: integer_sequence
 
-** ** https://blog.csdn.net/csfreebird/article/details/44904121
+** https://blog.csdn.net/csfreebird/article/details/44904121
 ** 这个类是所有traits类的基类，分别提供了以下功能：
 ** value\_type 表示值的类型
 ** value表示值
