@@ -1,4 +1,4 @@
 #+TITLE: template
 
 ** [[https://www.cnblogs.com/cmt/p/14553189.html][模板特化]]
-**
+** [[C++模板的特化]]
