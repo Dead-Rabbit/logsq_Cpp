@@ -9,4 +9,5 @@ vector<const char*> oldstyle = { "I","love","you" };
 names.assign(oldstyle.cbegin(), oldstyle.cend());
 list<string>::iterator it;
 for (auto it = names.begin(); names.begin() != names.end(); it++)
-        cout << *it << " ";```
+        cout << *it << " ";
+##
