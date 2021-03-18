@@ -2,7 +2,7 @@
 
 ** ** https://blog.csdn.net/csfreebird/article/details/44904121
 ** 这个类是所有traits类的基类，分别提供了以下功能：
-** `value_type` 表示值的类型
+** value__type 表示值的类型
 ** value表示值
 ** type 表示自己, 因此可以用::type::value来获取值
 true_type和false_type两个特化类用来表示bool值类型的traits，很多traits类都需要继承它们
