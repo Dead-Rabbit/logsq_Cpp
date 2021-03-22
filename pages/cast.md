@@ -3,7 +3,7 @@ title: cast
 ---
 
 ## [[https://zhuanlan.zhihu.com/p/151744661?from_voters_page=true][C++的cast有四种cast法]]
-##
+## [[https://blog.csdn.net/jiaomubai/article/details/99689461][C++四种cast及其使用]]
 ## static_cast
 ### static_cast <T> content：静态转换，在编译期间处理
 ### 主要用于C++中内置的基本数据类型之间的转换，但是没有运行时类型的检测来保证转换的安全性。还用于各种隐式转换，比如非`const`转`const`，`void*`转指针等
