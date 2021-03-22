@@ -11,7 +11,7 @@ title: cast
 4.用于把任何类型的表达式转换为void型
 5.用于基本数据类型（`char`、`int`等）以及对象之间的转换
 6.不能用于基本数据类型（`char*`、`int*`等）指针之间的转换
-需要注意的是，static_cast只转换类型，不改变属性，即content的const、volatile、unaligned的属性是不会改变的
+需要注意的是，static_cast只转换类型，不改变属性，即`content`的`const`、`volatile`、`unaligned`的属性是不会改变的
 ## const_cast
 ### const_cast <T*> content：去常转换，编译时执行
 ### 主要作用于同一个类型之间的去长和添加常属性之间的转换，但不能用作不同类型之间的转换。它可以把一个不是常属性（const）的转换成常属性的，同时也可以对一个本是常属性的类型进行去长操作，即const变量转非const。
