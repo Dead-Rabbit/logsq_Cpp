@@ -11,6 +11,7 @@ title: cast
 4.用于把任何类型的表达式转换为void型
 5.用于基本数据类型（char、int等）以及对象之间的转换
 6.不能用于基本数据类型（char*、int*等）指针之间的转换
+需要注意的是，static_cast只转换类型，不改变属性，即content的const、volatile、unaligned的属性是不会改变的
 ## const_cast
 ###
 ## dynamic_cast
