@@ -13,7 +13,7 @@ title: cast
 6.不能用于基本数据类型（`char*`、`int*`等）指针之间的转换
 需要注意的是，`static_cast`只转换类型，不改变属性，即`content`的`const`、`volatile`、`unaligned`的属性是不会改变的
 ## const_cast
-### const_cast <T*> content：去常转换，编译时执行
+### `const_cast <T*> content`：去常转换，编译时执行
 ### 主要作用于同一个类型之间的去长和添加常属性之间的转换，但不能用作不同类型之间的转换。它可以把一个不是常属性（const）的转换成常属性的，同时也可以对一个本是常属性的类型进行去长操作，即const变量转非const。
 常用于去除const类对象的只读属性，且强制转换的类型必须是指针或引用。
 ## dynamic_cast
