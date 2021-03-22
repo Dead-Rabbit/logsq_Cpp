@@ -2,7 +2,7 @@
 title: cast
 ---
 
-## https://zhuanlan.zhihu.com/p/151744661?from_voters_page=true
+## [[https://zhuanlan.zhihu.com/p/151744661?from_voters_page=true][C++的cast有四种cast法]]
 ##
 ## static_cast
 ### static_cast <T> content：静态转换，在编译期间处理
