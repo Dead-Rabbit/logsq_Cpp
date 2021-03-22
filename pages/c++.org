@@ -1,6 +1,5 @@
 #+TITLE: C++
 
-** 智能指针 [[std::shared_ptr]]
 ** [[constexpr]]
 ** [[integer_sequence]]
 ** 模板 [[template]]
@@ -8,4 +7,4 @@
 ** [[左值与右值]]
 ** [[std]]
 ** 位图 [[C++ bitset]]
-**
+** [[智能指针]]
