@@ -21,5 +21,19 @@ int main()
     cout<<count_if(V.begin(), V.end(), comp)<<endl;
     return 0;
 }
+```
+vector <int> V;
+    for(int i = 1; i <= 10; i++)
+        V.push_back(i);
+    cout<<count_if(V.begin(), V.end(), comp)<<endl;
+    return 0;
+}
+````
+  vector <int> V;
+    for(int i = 1; i <= 10; i++)
+        V.push_back(i);
+    cout<<count_if(V.begin(), V.end(), comp)<<endl;
+    return 0;
+}
 ``
 ##
