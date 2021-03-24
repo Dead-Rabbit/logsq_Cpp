@@ -9,3 +9,4 @@
 ** 位图 [[bitset]]
 ** [[智能指针]]
 ** [[cast]]
+** [[std::function]]
