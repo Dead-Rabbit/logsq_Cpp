@@ -17,11 +17,9 @@
 5. 不支持对容量和内存重新分配时机的控制。不过deque的内存重分配优于vector，因为其内部结构显示，deque不必在内存重分配时复制所有元素
 6. 除了头尾两端，在任何地方安插或删除元素，都将导致指向deque元素的所有pointers、references、iterators失效
 7. deque的内存区块不再被使用时，会自动被释放。deque的内存大小是可自动缩减的
-8. deque与vector组织内存的方式不一样。在底层，deque按“页”（page）或“块”（chunk）来分配存储器，每页包含固定数目的元素。而vector只分配一块连续的内存。例如，一个10M字节的vector使用的是一整块10M字节的内存，而deque可以使用一串更小的内存块，比如10块1M的内存。所以不能将deque的地址（如&deque[0]）传递给传统的C API，因为deque内部所使用的内存不一定会连续
+8. deque与vector组织内存的方式不一样。在底层，deque按“页”（`page`）或“块”（`chunk`）来分配存储器，每页包含固定数目的元素。而vector只分配一块连续的内存。例如，一个10M字节的vector使用的是一整块10M字节的内存，而deque可以使用一串更小的内存块，比如10块1M的内存。所以不能将deque的地址（如&deque[0]）传递给传统的C API，因为deque内部所使用的内存不一定会连续
 *** *deque的下述特性与vector差不多*
-**** 相似特性：
-1. 在中部安插、删除元素的速度较慢
-2. 迭代器属于random access iterator（随机存取迭代器）
+**** 1. 在中部安插、删除元素的速度较慢
 *** *优先使用vector，还是deque?*
 **** c++标准建议：vector是那种应该在默认情况下使用的序列。如果大多数插入和删除操作发生在序列的头部或尾部时，应该选用deque
 ** [[https://blog.csdn.net/gogokongyin/article/details/51178378][list、vector和deque的区别]]
